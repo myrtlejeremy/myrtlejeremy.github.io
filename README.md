@@ -1,3 +1,6 @@
+# Jeremy Myrtle
+## Concord, NC | myrtle.jeremy@gmail.com | 980-680-7421
+
 ### WORK HISTORY 
  
 ##### CENTRAL PIEDMONT COMMUNITY COLLEGE 	 
