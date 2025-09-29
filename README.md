@@ -54,7 +54,7 @@ Operated A/V technology in Distance Location classroom and in charge of repairin
 ---
 
 ### EDUCATION 
- ##### ROWAN-CABARRUS COMMUNITY COLLEGE <span style="float: right">May 2018</span>
+##### ROWAN-CABARRUS COMMUNITY COLLEGE <span style="float: right">May 2018</span>
 Honors Graduate (3.7 GPA)<br> 						 
 Associate of Applied Science, Information Systems<br>
 Associate of Applied Science, Computer Technology Integration <br>
