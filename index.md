@@ -2,6 +2,8 @@
 title: Jeremy Myrtle
 ---
 
+<a href="/assets/resume.pdf" download class="btn btn-primary">Download PDF</a>
+
 ## WORK HISTORY 
  
 #### CENTRAL PIEDMONT COMMUNITY COLLEGE 	 
