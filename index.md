@@ -3,8 +3,6 @@
 #### CENTRAL PIEDMONT COMMUNITY COLLEGE 	 
 ##### IT Field Support Technician II <span style="float: right">Apr 2025 – Present</span>
 A restructured role providing escalation-level technical support for endpoint devices, including installation, advanced troubleshooting, and maintenance of computing and audio-visual (A/V) technology across campus environments. Resolve complex technical issues, support IT projects, and assist with technology deployments. 
- 
- ---
 
 ##### Technology Asset Management Specialist <span style="float: right">Jan 2023 – Mar 2025</span> 
 Responsible for installing and servicing technology assets and other devices, troubleshooting hardware and software within the classroom as needed, maintaining software and hardware deployment, asset refresh of old devices, and intercommunication with various teams and clientele. Also served as a main point of contact for technical support in the college Dental Clinic and for WTVI-PBS Charlotte. Occupational skills included: 
@@ -15,18 +13,12 @@ Responsible for installing and servicing technology assets and other devices, tr
 - System administration for Windows and MacOS 
 - Eaglesoft Tier-II support 
 - Asset management and ticket support with TeamDynamix (TDX) 
- 
----
 
 ##### Service Desk Analyst I <span style="float: right">Nov 2022 – Jan 2023</span>
 A restructured role assisting in the daily operations of ITS Client Services including responding to service tickets, installation and servicing of computers and other devices, remote campus management and troubleshooting of hardware and software within the classroom. 
- 
----
 
 ##### Technology Support Analyst I <span style="float: right">Nov 2021 – Nov 2022</span>
 Assisted in the daily operations of the ITS Help Desk including responding to service tickets, installation and servicing of computers and other devices, remote campus management and troubleshooting of hardware and software within the classroom. 
- 
- ---
 
 #### CASCO SIGNS, INC. 
 ##### Information Technology Specialist <span style="float: right">May 2018 – Nov 2021</span>
@@ -38,8 +30,6 @@ Maintained WordPress company websites assisting in adding/removing of products, 
 - PHP Web Application Development 
     - CABGOP County Convention
     - Company Commission Reports 
-
----
 
 #### ROWAN-CABARRUS COMMUNITY COLLEGE 
 ##### Student Intern <span style="float:right">Aug 2016 – Dec 2016 </span>
