@@ -2,7 +2,7 @@
 title: Jeremy Myrtle
 ---
 
-<a href="/assets/resume.pdf" download class="btn btn-primary">Download PDF</a>
+<a href="/assets/JeremyResume_2025_2.pdf" download class="btn btn-primary">Download PDF</a>
 
 ## WORK HISTORY 
  
