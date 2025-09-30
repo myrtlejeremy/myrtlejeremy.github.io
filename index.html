@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Jeremy Myrtle | IT Field Technician</title>
+  <!-- Font Awesome for icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <style>
+    :root {
+      --bg: #f5f7fa;
+      --text: #333;
+      --card-bg: #fff;
+      --accent: #0077b5;
+      --shadow: rgba(0,0,0,0.15);
+    }
+    body.dark {
+      --bg: #121212;
+      --text: #eaeaea;
+      --card-bg: #1e1e1e;
+      --accent: #1e90ff;
+      --shadow: rgba(0,0,0,0.6);
+    }
+
+    body {
+      font-family: Arial, sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      margin: 0;
+      line-height: 1.6;
+      transition: background 0.3s, color 0.3s;
+      padding-bottom: 80px; /* leave space for bottom nav */
+    }
+    .container {
+      max-width: 800px;
+      margin: 2rem auto;
+      padding: 1rem;
+    }
+    .card {
+      background: var(--card-bg);
+      padding: 2rem;
+      border-radius: 16px;
+      box-shadow: 0 4px 15px var(--shadow);
+      text-align: center;
+      margin-bottom: 2rem;
+      transition: background 0.3s, box-shadow 0.3s;
+    }
+    .avatar {
+      width: 120px;
+      height: 120px;
+      border-radius: 50%;
+      margin-bottom: 1rem;
+      object-fit: cover;
+    }
+    h1 {
+      margin: 0.2rem 0;
+      font-size: 1.8rem;
+    }
+    h2 {
+      margin: 0.2rem 0;
+      font-size: 1.2rem;
+      color: var(--accent);
+    }
+    p {
+      font-size: 0.95rem;
+      margin: 1rem 0;
+    }
+    section {
+      background: var(--card-bg);
+      margin-bottom: 1.5rem;
+      padding: 1.5rem;
+      border-radius: 12px;
+      box-shadow: 0 2px 8px var(--shadow);
+      transition: background 0.3s, box-shadow 0.3s;
+    }
+    section h3 {
+      margin-top: 0;
+      color: var(--accent);
+    }
+    ul {
+      list-style: none;
+      padding: 0;
+    }
+    ul li {
+      margin: 0.4rem 0;
+    }
+    .skill-bar {
+      background: #e4e4e4;
+      border-radius: 8px;
+      overflow: hidden;
+      height: 10px;
+      margin-top: 0.3rem;
+    }
+    .skill-level {
+      height: 100%;
+      background: var(--accent);
+    }
+    body.dark .skill-bar {
+      background: #333;
+    }
+    /* Toggle button */
+    .toggle {
+      position: fixed;
+      top: 1rem;
+      right: 1rem;
+      background: var(--card-bg);
+      border: none;
+      padding: 0.6rem 1rem;
+      border-radius: 20px;
+      box-shadow: 0 2px 6px var(--shadow);
+      cursor: pointer;
+      transition: background 0.3s, box-shadow 0.3s;
+      z-index: 1001;
+    }
+    /* Bottom nav */
+    .bottom-nav {
+      position: fixed;
+      bottom: 0;
+      left: 0;
+      width: 100%;
+      background: var(--card-bg);
+      box-shadow: 0 -2px 8px var(--shadow);
+      display: flex;
+      justify-content: space-around;
+      padding: 0.4rem 0;
+      z-index: 1000;
+      transition: background 0.3s, box-shadow 0.3s;
+    }
+    .bottom-nav a {
+      text-decoration: none;
+      color: var(--accent);
+      font-size: 0.8rem;
+      text-align: center;
+      flex: 1;
+    }
+    .bottom-nav a i {
+      display: block;
+      font-size: 1.4rem;
+      margin-bottom: 0.2rem;
+    }
+    .bottom-nav a:hover {
+      opacity: 0.7;
+    }
+  </style>
+</head>
+<body>
+  <button class="toggle" onclick="toggleTheme()">🌙 Dark Mode</button>
+  <div class="container">
+    <!-- Header Card -->
+    <div class="card">
+      <img src="https://via.placeholder.com/120" alt="Profile" class="avatar">
+      <h1>Jeremy Myrtle</h1>
+      <h2>IT Field Technician</h2>
+      <p>
+        IT professional with hands-on experience in troubleshooting, networking, and 
+        on-site technical support. Skilled in Windows/Linux systems, routers, and 
+        providing reliable customer-focused solutions.
+      </p>
+    </div>
+
+    <!-- Skills -->
+    <section>
+      <h3>Skills</h3>
+      <ul>
+        <li>Networking (Routers, Switches, VPNs)
+          <div class="skill-bar"><div class="skill-level" style="width:90%"></div></div>
+        </li>
+        <li>Windows/Linux Support
+          <div class="skill-bar"><div class="skill-level" style="width:85%"></div></div>
+        </li>
+        <li>Hardware Troubleshooting
+          <div class="skill-bar"><div class="skill-level" style="width:95%"></div></div>
+        </li>
+        <li>Customer Service & Communication
+          <div class="skill-bar"><div class="skill-level" style="width:80%"></div></div>
+        </li>
+      </ul>
+    </section>
+
+    <!-- Experience -->
+    <section>
+      <h3>Experience</h3>
+      <ul>
+        <li>
+          <strong>Field Technician – TechCorp Solutions</strong> (2020 – Present)  
+          Provide on-site IT support, configure network hardware, resolve end-user issues, and perform system upgrades.
+        </li>
+        <li>
+          <strong>IT Support Specialist – NetAssist</strong> (2017 – 2020)  
+          Supported enterprise helpdesk, maintained Windows/Linux systems, and deployed new software across multiple departments.
+        </li>
+      </ul>
+    </section>
+
+    <!-- Certifications -->
+    <section>
+      <h3>Certifications</h3>
+      <ul>
+        <li>CompTIA A+</li>
+        <li>CompTIA Network+</li>
+        <li>Cisco CCNA (in progress)</li>
+      </ul>
+    </section>
+  </div>
+
+  <!-- Sticky Bottom Nav -->
+  <div class="bottom-nav">
+    <a href="https://www.linkedin.com/in/jeremy-myrtle" target="_blank">
+      <i class="fab fa-linkedin"></i>LinkedIn
+    </a>
+    <a href="https://github.com/jeremyr-tech" target="_blank">
+      <i class="fab fa-github"></i>GitHub
+    </a>
+    <a href="resume.pdf" target="_blank">
+      <i class="fas fa-file-pdf"></i>Resume
+    </a>
+  </div>
+
+  <script>
+    function toggleTheme() {
+      document.body.classList.toggle('dark');
+      const btn = document.querySelector('.toggle');
+      if (document.body.classList.contains('dark')) {
+        btn.textContent = "☀️ Light Mode";
+      } else {
+        btn.textContent = "🌙 Dark Mode";
+      }
+    }
+  </script>
+</body>
+</html>
