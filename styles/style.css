@@ -156,12 +156,12 @@
 }
 
 /* GitHub */
-.social-links a:nth-child(2) {
+/*.social-links a:nth-child(2) {
   background: #333;
-}
+}*/
 
 /* PDF Resume */
-.social-links a:nth-child(3) {
+.social-links a:nth-child(2) {
   background: #d32f2f;
 }
 
