@@ -170,3 +170,22 @@
   transform: scale(1.1);
   opacity: 0.85;
 }
+
+.cert-badges {
+  margin: 10px 0;
+  display: flex;
+  gap: 10px; /* space between badges */
+  justify-content: center; /* center under your title */
+}
+
+.cert-badges .badge {
+  height: 40px; /* adjust size */
+  vertical-align: middle;
+  border-radius: 5px; /* optional rounded corners */
+  transition: transform 0.2s;
+}
+
+.cert-badges .badge:hover {
+  transform: scale(1.1); /* subtle hover effect */
+}
+
