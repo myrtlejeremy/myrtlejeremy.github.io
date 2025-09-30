@@ -1,0 +1,163 @@
+:root {
+      --bg: #f5f7fa;
+      --text: #333;
+      --card-bg: #fff;
+      --accent: #0077b5;
+      --shadow: rgba(0,0,0,0.15);
+    }
+    body.dark {
+      --bg: #121212;
+      --text: #eaeaea;
+      --card-bg: #1e1e1e;
+      --accent: #1e90ff;
+      --shadow: rgba(0,0,0,0.6);
+    }
+
+    body {
+      font-family: Arial, sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      margin: 0;
+      line-height: 1.6;
+      transition: background 0.3s, color 0.3s;
+      padding-bottom: 80px; /* leave space for bottom nav */
+    }
+    .container {
+      max-width: 800px;
+      margin: 2rem auto;
+      padding: 1rem;
+    }
+    .card {
+      background: var(--card-bg);
+      padding: 2rem;
+      border-radius: 16px;
+      box-shadow: 0 4px 15px var(--shadow);
+      text-align: center;
+      margin-bottom: 2rem;
+      transition: background 0.3s, box-shadow 0.3s;
+    }
+    .avatar {
+      width: 120px;
+      height: 120px;
+      border-radius: 50%;
+      margin-bottom: 1rem;
+      object-fit: cover;
+    }
+    h1 {
+      margin: 0.2rem 0;
+      font-size: 1.8rem;
+    }
+    h2 {
+      margin: 0.2rem 0;
+      font-size: 1.2rem;
+      color: var(--accent);
+    }
+    p {
+      font-size: 0.95rem;
+      margin: 1rem 0;
+    }
+    section {
+      background: var(--card-bg);
+      margin-bottom: 1.5rem;
+      padding: 1.5rem;
+      border-radius: 12px;
+      box-shadow: 0 2px 8px var(--shadow);
+      transition: background 0.3s, box-shadow 0.3s;
+    }
+    section h3 {
+      margin-top: 0;
+      color: var(--accent);
+    }
+    ul {
+      list-style: none;
+      padding: 0;
+    }
+    ul li {
+      margin: 0.4rem 0;
+    }
+    .skill-bar {
+      background: #e4e4e4;
+      border-radius: 8px;
+      overflow: hidden;
+      height: 10px;
+      margin-top: 0.3rem;
+    }
+    .skill-level {
+      height: 100%;
+      background: var(--accent);
+    }
+    body.dark .skill-bar {
+      background: #333;
+    }
+    /* Toggle button */
+    .toggle {
+      position: fixed;
+      top: 1rem;
+      right: 1rem;
+      background: var(--card-bg);
+      border: none;
+      padding: 0.6rem 1rem;
+      border-radius: 20px;
+      box-shadow: 0 2px 6px var(--shadow);
+      cursor: pointer;
+      transition: background 0.3s, box-shadow 0.3s;
+      z-index: 1001;
+    }
+    /* Bottom nav */
+    .bottom-nav {
+      position: fixed;
+      bottom: 0;
+      left: 0;
+      width: 100%;
+      background: var(--card-bg);
+      box-shadow: 0 -2px 8px var(--shadow);
+      display: flex;
+      justify-content: space-around;
+      padding: 0.4rem 0;
+      z-index: 1000;
+      transition: background 0.3s, box-shadow 0.3s;
+    }
+    .bottom-nav a {
+      text-decoration: none;
+      color: var(--accent);
+      font-size: 0.8rem;
+      text-align: center;
+      flex: 1;
+    }
+    .bottom-nav a i {
+      display: block;
+      font-size: 1.4rem;
+      margin-bottom: 0.2rem;
+    }
+    .bottom-nav a:hover {
+      opacity: 0.7;
+    }
+    .social-links {
+  margin-top: 1rem;
+}
+
+.social-links a {
+  margin: 0 0.5rem;
+  font-size: 1.5rem;
+  color: #666;
+  transition: color 0.3s ease;
+}
+
+/* LinkedIn hover */
+.social-links a:nth-child(1):hover {
+  color: #0077b5;
+}
+
+/* GitHub hover */
+.social-links a:nth-child(2):hover {
+  color: #333;
+}
+
+/* PDF always red */
+.social-links a:nth-child(3) {
+  color: #d32f2f;
+}
+
+.social-links a:nth-child(3):hover {
+  color: #b71c1c; /* darker red on hover */
+}
