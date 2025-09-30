@@ -172,20 +172,21 @@
 }
 
 .cert-badges {
-  margin: 10px 0;
+  margin: 15px 0;
   display: flex;
-  gap: 10px; /* space between badges */
+  gap: 15px; /* slightly more space between badges */
   justify-content: center; /* center under your title */
+  flex-wrap: wrap; /* ensures badges don't break layout on small screens */
 }
 
 .cert-badges .badge {
-  height: 40px; /* adjust size */
+  height: 60px; /* larger size for more visibility */
+  width: auto; /* maintain aspect ratio */
   vertical-align: middle;
-  border-radius: 5px; /* optional rounded corners */
+  border-radius: 6px; /* optional */
   transition: transform 0.2s;
 }
 
 .cert-badges .badge:hover {
   transform: scale(1.1); /* subtle hover effect */
 }
-
